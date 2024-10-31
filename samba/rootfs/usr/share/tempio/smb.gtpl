@@ -27,8 +27,8 @@
    unix charset = UTF-8
 
 [config]
-   browseable = yes
-   writeable = yes
+   browseable = no
+   writeable = no
    path = /homeassistant
 
    valid users = {{ .username }}
@@ -38,8 +38,8 @@
    delete veto files = {{ eq (len .veto_files) 0 | ternary "no" "yes" }}
 
 [addons]
-   browseable = yes
-   writeable = yes
+   browseable = no
+   writeable = no
    path = /addons
 
    valid users = {{ .username }}
@@ -49,8 +49,8 @@
    delete veto files = {{ eq (len .veto_files) 0 | ternary "no" "yes" }}
 
 [addon_configs]
-   browseable = yes
-   writeable = yes
+   browseable = no
+   writeable = no
    path = /addon_configs
 
    valid users = {{ .username }}
@@ -60,8 +60,8 @@
    delete veto files = {{ eq (len .veto_files) 0 | ternary "no" "yes" }}
 
 [ssl]
-   browseable = yes
-   writeable = yes
+   browseable = no
+   writeable = no
    path = /ssl
 
    valid users = {{ .username }}
@@ -71,8 +71,8 @@
    delete veto files = {{ eq (len .veto_files) 0 | ternary "no" "yes" }}
 
 [share]
-   browseable = yes
-   writeable = yes
+   browseable = no
+   writeable = no
    path = /share
 
    valid users = {{ .username }}
@@ -82,8 +82,8 @@
    delete veto files = {{ eq (len .veto_files) 0 | ternary "no" "yes" }}
 
 [backup]
-   browseable = yes
-   writeable = yes
+   browseable = no
+   writeable = no
    path = /backup
 
    valid users = {{ .username }}
