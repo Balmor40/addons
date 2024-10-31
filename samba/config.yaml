@@ -1,5 +1,5 @@
 ---
-version: 12.3.4
+version: 12.3.2
 slug: samba2
 name: Samba Romain
 description: Expose Home Assistant folders with SMB/CIFS
