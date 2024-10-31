@@ -1,4 +1,4 @@
-# Home Assistant Add-on: Samba share
+# Home Assistant Add-on: Samba Romain
 
 ## Installation
 
