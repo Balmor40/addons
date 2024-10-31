@@ -1,4 +1,8 @@
 # Changelog
+## 12.3.4
+
+- Bug correction
+
 ## 12.3.3
 
 - Only media folder is on
